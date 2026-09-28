@@ -1,0 +1,7 @@
+kubeconfig
+state/
+evidence/
+fcc-rollout-evidence-*.tar.gz
+__pycache__/
+*.pyc
+.DS_Store
