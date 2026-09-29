@@ -62,9 +62,9 @@ Only the image case waits for `ProgressDeadlineExceeded`. The controller reports
 
 ## Validation record
 
-The original two-stage experiment passed on 28 September 2026: healthy v1/v2, all three intended faults, the image deadline, and all recoveries. This revision consolidates the sources, pins the same Python digest directly, retains per-run UID checks, adds reader-command captures and scoped cleanup, and removes authoring-workflow messages. Its final Mac execution is still pending. Source review and local checks do not substitute for that run.
+The original two-stage experiment passed on 28 September 2026: healthy v1/v2, all three intended faults, the image deadline, and all recoveries.
 
-After executing this revision, the generated archives contain its source hashes and actual results. Keep those records with the publication work.
+A fresh run of this consolidated revision on the same Mac also passed on 28 September 2026. The evidence archives verify the healthy controls, three fault cases and recoveries, reader inspection commands, 100 successful sampled Service requests across ten batches, and scoped cleanup. These finite samples do not establish uninterrupted availability.
 
 ## Pinned images
 
